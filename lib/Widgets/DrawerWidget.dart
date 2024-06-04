@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class DrawerWidget extends StatelessWidget { 
+class DrawerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -11,7 +11,7 @@ class DrawerWidget extends StatelessWidget {
             padding: EdgeInsets.zero,
             child: UserAccountsDrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.red,
+                color: Colors.redAccent,
               ),
               accountName: Text(
                 "Ayush Narayan",
