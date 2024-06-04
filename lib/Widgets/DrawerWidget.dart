@@ -11,7 +11,7 @@ class DrawerWidget extends StatelessWidget {
             padding: EdgeInsets.zero,
             child: UserAccountsDrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.redAccent,
+                color: Colors.red,
               ),
               accountName: Text(
                 "Ayush Narayan",
